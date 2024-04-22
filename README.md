@@ -3,4 +3,4 @@
 
  Estou aprendendo a gerenciar meus arquivos!
 
- <a href="https://chicobahia.github.io/html5-e-css3/exercícios/ex001/">Abrir a porra do meu site.</a>
+ <a href="https://chicobahia.github.io/html5-e-css3/exercícios/ex001/index.html">Abrir a porra do meu site.</a>
