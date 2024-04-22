@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(165, 42, 42, 0.664);
+            margin: 0px;
+        }
+
+        header {
+            background-color: rgba(249, 64, 64, 0.192);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgba(0, 0, 0, 0.559);
+            padding: 2px;
+            box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.441);
+            
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: rgb(193, 55, 55);
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: rgba(210, 105, 30, 0.456);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 0px 25px;
+            box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.312);
+        }
+
+        article {
+            background-color: rgba(255, 127, 80, 0.508);
+        }
+
+        article > aside {
+            background-color: rgba(205, 134, 63, 0.54);
+            padding: 1px;
+        }
+
+        footer {
+            background-color: black;
+            color: whitesmoke;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+           margin: 0px; 
+        }
+
+        div#bola {
+            height: 50px;
+            width: 50px;
+            margin: 10px;
+            border-radius: 50%;
+            background-color: rgba(240, 255, 255, 0.6);
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+           <a href="#">Link</a>
+           <a href="#">Link</a> 
+           <a href="#">Link</a> 
+           <a href="#">Link</a> 
+           <a href="#">Link</a>  
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre a bahia</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda optio eius, eveniet ipsum non quisquam reprehenderit dicta tempora blanditiis vero asperiores, ab soluta quos doloribus iure quam fugit, sunt voluptate.</p>
+                <aside>
+                    <p>Artigo escrito por chico bahia</p>
+                </aside>
+            </article>
+            
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Chico Baiano</p>
+    </footer>
+    <div id="bola"></div>
+    
+</body>
+</html>

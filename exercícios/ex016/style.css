@@ -1,0 +1,21 @@
+@charset "UTF-8";
+* {font-family: Arial, Helvetica, sans-serif;}
+
+body {background-image: linear-gradient(to right, #14145496, #2f2db8d9 );}
+
+main {background-color: white;
+border-radius: 10px;
+box-shadow: 5px 5px 3px #14145443;    
+width: 600px;
+padding: 15px 30px;
+margin: auto;}
+
+h1 {color: #201d79c1;
+    text-align: center;
+    text-shadow: 0px 1px 2px #1a165c51;}
+
+h2 {color: #2B274C;}
+
+p {text-align: justify;}
+
+/* border radius é a bordinha, box shadow é a sombra atrás, widht é a largura da caixa de texto, padding é a grossura da parte branca e margin é pra ficar no meio. text shadow é uma sombra atrás das palavras.
