@@ -17,6 +17,7 @@ html, body {
     min-height: 100vh;
     background-color: rgba(127, 255, 212, 0.247);
     font-family: var(--fonte1);
+    overflow-x: hidden;
 }
 
 header {
@@ -55,19 +56,41 @@ section {
     font-size: 2.8vw;
 }
 
+section > p {
+    padding-bottom: 1.5em;
+}
+
 section.normal {
     background-color: aliceblue;
     color: black;
 }
 
 section.imagem {
-    background-color: rgba(0, 0, 0, 0.714);
+    background-color: rgba(0, 0, 0, 0.56);
     color: antiquewhite;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.448);
+    background-attachment: fixed;
 }
 
 section.imagem > p {
-    background-color: rgba(0, 0, 0, 0.626);
-    width: 550px;
+    background-color: rgba(0, 0, 0, 0.438);
+    width: 500x;
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+    text-shadow: 1px 1px 1px black;
+}
+
+section#img01 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+    
+
+
+section#img02 {
+    background-image: url(../imagens/background002.jpg);
+    background-size: cover;
 }
 
 footer {
