@@ -10,8 +10,16 @@
         }
 
         table {
-            width: 400px;
+            width: 500px;
             border-collapse: collapse;
+            position: relative;
+        }
+
+        caption {
+            font-size: 1.4em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
         }
 
         th, tfoot {
@@ -24,8 +32,26 @@
             border: 1px solid black;
             padding: 8px;
         }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(43, 43, 43);
+            border-collapse: collapse;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: rgba(0, 0, 0, 0.307);
+        }
+
+
         td.num {
             text-align: right;
+        }
+
+        th.population {
+           height: 20px;
+           width: 25%;
         }
     </style>
 </head>
@@ -33,8 +59,10 @@
     <h1>Uso de tabelas grandes</h1>
     <!--
         Anatomia de tabelas grandes
+        -TABLE-
 
-        table
+        Caption
+
         thead
             tr, td, th
         tbody
@@ -43,10 +71,11 @@
             tr, td, th    
     -->
     <table>
+        <caption>População do Brasil</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" class="population">População</th>
             </tr>
         </thead>
         <tbody>
@@ -161,7 +190,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <td>Total de Habitantes</td>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num"><strong>203 062 512</strong></td>
             </tr>
         </tfoot>
