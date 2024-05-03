@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 13</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        tr {
+            height: 50px;
+        }
+
+
+        td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 30px;
+        }
+
+        td.table01 {
+            padding: 3px;
+            
+        }
+
+        td.normal {
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Desafio 13 parte 2</h1>
+    <table>
+        <tr>
+            <td colspan="4" class="table01">A</td>
+            <td rowspan="4" class="table01">B</td>
+        </tr>
+        <tr>
+            <td rowspan="4" class="table01">C</td>
+            
+                <td class="normal">D</td>
+                <td class="normal">E</td>
+                <td class="normal">F</td>
+                <tr>
+                    <td class="normal">G</td>
+                    <td class="normal">H</td>
+                    <td class="normal">I</td>
+                    <tr>
+                        <td class="normal">J</td>
+                        <td class="normal">L</td>
+                        <td class="normal">M</td>
+                    <tr>
+                        <td colspan="4" class="table01">N</td>
+                    </tr>
+                </tr>
+            </tr>
+        </tr>
+    </table>
+    
+</body>
+</html>
