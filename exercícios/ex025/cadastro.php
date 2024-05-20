@@ -1,1 +1,1 @@
-Os dados foram envivados! Aprenda PHP pra saber mais!
+Os dados foram enviados! Aprenda PHP pra saber mais!
